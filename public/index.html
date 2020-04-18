@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<title>Instagram Codenation</title>
 		<meta name="description" content="" />
-		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+		<link rel="shortcut icon" type="image/png" href="favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href="css/normalize.css" />
@@ -13,10 +13,17 @@
 	</head>
 	<body>
 		<header class="header">
-			<div class="header__container">
-				<a href="#" class="header__logo">
-					<img src="img/instagram-logo.svg" alt="instagram-logo">
-				</a>
+			<div class="container">
+				<div class="header__container">
+					<button class="header__icon__camera">
+						<i class="fas fa-camera"></i>
+					</button>
+					
+					<a href="#" class="header__logo">
+						<img src="img/instagram-logo.svg" alt="instagram-logo">
+					</a>
+				</div>
+				
 				<buttom class="header__icon">
 					<i class="far fa-paper-plane"></i>
 				</buttom>
@@ -28,17 +35,17 @@
 				<div class="stories__container">
 					<a href="#" class="stories__item">
 						<img src="img/profiles/yoda/yoda-profile.jpg" alt="yoda-profile">
-						<p class="stories__user">Yoda</p>
+						<p class="stories__user">mestre_yoda</p>
 					</a>
 
 					<a href="#" class="stories__item stories__item--new">
 						<img src="img/profiles/gamora/gamora-profile.jpg" alt="gamora-profile">
-						<p class="stories__user">Gamora</p>
+						<p class="stories__user">gamora_zen</p>
 					</a>
 
 					<a href="#" class="stories__item">
 						<img src="img/profiles/black-panther/black-panther-profile.jpg" alt="black-panther-profile">
-						<p class="stories__user">T'challa</p>
+						<p class="stories__user">black_panther</p>
 					</a>
 				</div>
 			</div>
@@ -54,7 +61,7 @@
 							</a>
 							
 							<a class="user__name">
-								Mestre Yoda
+								mestre_yoda
 							</a>
 						</div>
 						
@@ -64,18 +71,24 @@
 					</header>
 
 					<figure class="post__img">
-						<img src="img/profiles/yoda/yoda-1.jpg"> 
+						<img src="img/profiles/yoda/yoda-4.jpg" alt="yoda-4"> 
 					</figure>
 
 					<nav class="post__buttons">
-						<button class="post__button">
-							<i class="far fa-heart"></i>
-						</button>
-						
-						<button class="post__button">
-							<i class="far fa-comment"></i>
-						</button>
-						
+						<div class="post__buttons__container">
+							<button class="post__button">
+								<i class="far fa-heart"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-comment"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-paper-plane"></i>
+							</button>
+						</div>
+
 						<button class="post__button">
 							<i class="far fa-bookmark"></i>
 						</button>
@@ -84,7 +97,282 @@
 					<div class="post__interactions">
 						<div class="user">
 							<img src="img/profiles/domino/domino-profile.jpg" alt="domino-profile">
-							<span> Curtido por <strong>Domino</strong> e outras <strong>7 pessoas</strong></span>
+							<span> Curtido por <strong>domino</strong> e outras <strong>7 pessoas</strong></span>
+						</div>
+						<div class="user__intarations">
+							<span class="user__description"><strong>mestre_yoda</strong> Hello</span>
+							<span class="user__comments">Ver todos os 905 cométarios</span>
+							<span class="user__time">há 30 minutos</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="post">
+					<header class="post__header">
+						<div class="user">
+							<a class="user__img">
+								<img src="img/profiles/gamora/gamora-profile.jpg" alt="gamora-profile">
+							</a>
+							
+							<a class="user__name">
+								gamora_zen
+							</a>
+						</div>
+						
+						<button class="post__content">
+							<i class="fas fa-ellipsis-h"></i>
+						</button>
+					</header>
+
+					<figure class="post__img">
+						<img src="img/profiles/gamora/gamora-4.jpg" alt="gamora-4"> 
+					</figure>
+
+					<nav class="post__buttons">
+						<div class="post__buttons__container">
+							<button class="post__button">
+								<i class="far fa-heart"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-comment"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-paper-plane"></i>
+							</button>
+						</div>
+
+						<button class="post__button">
+							<i class="far fa-bookmark"></i>
+						</button>
+					</nav>
+
+					<div class="post__interactions">
+						<div class="user">
+							<img src="img/profiles/carol/carol-profile.jpg" alt="domino-profile">
+							<span> Curtido por <strong>carol_danvers</strong> e outras <strong>7 pessoas</strong></span>
+						</div>
+						<div class="user__intarations">
+							<span class="user__description"><strong>gamora_zen</strong> Tbt com o Papai</span>
+							<span class="user__comments">Ver todos os 600 cométarios</span>
+							<span class="user__time">há 3 minutos</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="post">
+					<header class="post__header">
+						<div class="user">
+							<a class="user__img">
+								<img src="img/profiles/black-panther/black-panther-profile.jpg" alt="black-panther-profile">
+							</a>
+							
+							<a class="user__name">
+								black_panther
+							</a>
+						</div>
+						
+						<button class="post__content">
+							<i class="fas fa-ellipsis-h"></i>
+						</button>
+					</header>
+
+					<figure class="post__img">
+						<img src="img/profiles/black-panther/black-panther-6.jpg" alt="blan"> 
+					</figure>
+
+					<nav class="post__buttons">
+						<div class="post__buttons__container">
+							<button class="post__button">
+								<i class="far fa-heart"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-comment"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-paper-plane"></i>
+							</button>
+						</div>
+
+						<button class="post__button">
+							<i class="far fa-bookmark"></i>
+						</button>
+					</nav>
+
+					<div class="post__interactions">
+						<div class="user">
+							<img src="img/profiles/bruce/bruce-profile.jpg" alt="domino-profile">
+							<span> Curtido por <strong>bruce_wayne</strong> e outras <strong>5 pessoas</strong></span>
+						</div>
+						<div class="user__intarations">
+							<span class="user__description"><strong>black_panther</strong> Eu sendo Herói</span>
+							<span class="user__comments">Ver todos os 1100 cométarios</span>
+							<span class="user__time">há 40 minutos</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="post">
+					<header class="post__header">
+						<div class="user">
+							<a class="user__img">
+								<img src="img/profiles/carol/carol-profile.jpg" alt="yoda-1">
+							</a>
+							
+							<a class="user__name">
+								carol_danvers
+							</a>
+						</div>
+						
+						<button class="post__content">
+							<i class="fas fa-ellipsis-h"></i>
+						</button>
+					</header>
+
+					<figure class="post__img">
+						<img src="img/profiles/carol/carol-2.jpg" alt="carol-2"> 
+					</figure>
+
+					<nav class="post__buttons">
+						<div class="post__buttons__container">
+							<button class="post__button">
+								<i class="far fa-heart"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-comment"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-paper-plane"></i>
+							</button>
+						</div>
+
+						<button class="post__button">
+							<i class="far fa-bookmark"></i>
+						</button>
+					</nav>
+
+					<div class="post__interactions">
+						<div class="user">
+							<img src="img/profiles/yoda/yoda-profile.jpg" alt="yoda">
+							<span> Curtido por <strong>mestre_yoda</strong> e outras <strong>7 pessoas</strong></span>
+						</div>
+						<div class="user__intarations">
+							<span class="user__description"><strong>carol_danvers</strong> Meu novo uniforme</span>
+							<span class="user__comments">Ver todos os 2500 cométarios</span>
+							<span class="user__time">há 10 minutos</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="post">
+					<header class="post__header">
+						<div class="user">
+							<a class="user__img">
+								<img src="img/profiles/domino/domino-profile.jpg" alt="domino-profile">
+							</a>
+							
+							<a class="user__name">
+								domino
+							</a>
+						</div>
+						
+						<button class="post__content">
+							<i class="fas fa-ellipsis-h"></i>
+						</button>
+					</header>
+
+					<figure class="post__img">
+						<img src="img/profiles/domino/domino-2.jpg" alt="domino-2"> 
+					</figure>
+
+					<nav class="post__buttons">
+						<div class="post__buttons__container">
+							<button class="post__button">
+								<i class="far fa-heart"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-comment"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-paper-plane"></i>
+							</button>
+						</div>
+
+						<button class="post__button">
+							<i class="far fa-bookmark"></i>
+						</button>
+					</nav>
+
+					<div class="post__interactions">
+						<div class="user">
+							<img src="img/profiles/black-panther/black-panther-profile.jpg" alt="black-panther-profile">
+							<span> Curtido por <strong>black_panther</strong> e outras <strong>10000 pessoas</strong></span>
+						</div>
+						<div class="user__intarations">
+							<span class="user__description"><strong>domino</strong> Sou mais eu</span>
+							<span class="user__comments">Ver todos os 4000 cométarios</span>
+							<span class="user__time">há 34 minutos</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="post">
+					<header class="post__header">
+						<div class="user">
+							<a class="user__img">
+								<img src="img/profiles/bruce/bruce-profile.jpg" alt="bruce">
+							</a>
+							
+							<a class="user__name">
+								bruce_wayne
+							</a>
+						</div>
+						
+						<button class="post__content">
+							<i class="fas fa-ellipsis-h"></i>
+						</button>
+					</header>
+
+					<figure class="post__img">
+						<img src="img/profiles/bruce/bruce-6.jpg" alt=""> 
+					</figure>
+
+					<nav class="post__buttons">
+						<div class="post__buttons__container">
+							<button class="post__button">
+								<i class="far fa-heart"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-comment"></i>
+							</button>
+							
+							<button class="post__button">
+								<i class="far fa-paper-plane"></i>
+							</button>
+						</div>
+
+						<button class="post__button">
+							<i class="far fa-bookmark"></i>
+						</button>
+					</nav>
+
+					<div class="post__interactions">
+						<div class="user">
+							<img src="img/profiles/gamora/gamora-profile.jpg" alt="gamora">
+							<span> Curtido por <strong>gamora_zen</strong> e outras <strong>7 pessoas</strong></span>
+						</div>
+						<div class="user__intarations">
+							<span class="user__description"><strong>bruce_wayne</strong> Eu sou o batman hahah</span>
+							<span class="user__comments">Ver todos os 1796 cométarios</span>
+							<span class="user__time">há 40 minutos</span>
 						</div>
 					</div>
 				</article>
