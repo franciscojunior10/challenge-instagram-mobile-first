@@ -1,5 +1,13 @@
 # Mobile First: Instagram
-  
+
+# Resultado final da aplicação:
+
+![instagram](https://user-images.githubusercontent.com/33940202/79624949-c5afc980-80fb-11ea-8289-11a0e8cca967.gif)
+
+![insta](https://user-images.githubusercontent.com/33940202/79625002-3525b900-80fc-11ea-84ae-f41757ac6b66.png)
+
+![insta2](https://user-images.githubusercontent.com/33940202/79625005-42db3e80-80fc-11ea-9d45-bf1209085cfb.png)
+
 ## Objetivo:
 Desenvolver uma versão **mobile first** do Instagram utilizando apenas **HTML5** e **CSS3**.
 
